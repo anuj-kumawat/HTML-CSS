@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psuedo</title>
+    <style>
+    .psuedo{
+     height: 25x;
+     width: 125px;
+     background-color: red;
+     border: 2px solid black;
+     border-radius: 10px;
+     }  
+     .psuedo:hover{
+        background-color:pink ;
+        height: 30px;
+        width: 150px;
+        transition-property: all;
+        transition-duration: 2s;
+        transition-timing-function: steps(3);
+        transition-delay: 1s;
+        /* transition : all 1s ease-in-out 1s; */
+     }
+     .psuedo:active{
+        height: 30px;
+        width: 150px;
+        background-color: lightgreen;
+     }
+     </style>
+</head>
+<body>
+    <button class="psuedo">psuedo learning</button>
+</body>
+</html>
